@@ -366,7 +366,7 @@ header{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--text-color);
+    color: #AFB1B8;
     background-color: var(--secondary-title-color);
 }
 
@@ -554,7 +554,7 @@ header{
 
 .footer .social-link{
     color: var(--secondary-title-color);
-    background-color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer .social-link:hover{
