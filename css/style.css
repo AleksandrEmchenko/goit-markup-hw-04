@@ -66,7 +66,7 @@ header{
 .site-nav .link,
 .auth-nav .link{
     display: inline-block;
-    padding: 24px 0;
+    padding: 32px 0;
 }
 
 .list.auth-nav{
@@ -345,9 +345,8 @@ header{
 }
 
 .social{
-    width: 206px;
     height: 44px;
-    margin: 0 auto;
+    padding: 0 32px;
 }
 
 .social-list{
@@ -385,6 +384,9 @@ header{
     fill: currentColor;
 }
 
+.footer .social{
+    width: 206px;
+}
 
 /* -----portfolio----- */
 
@@ -548,6 +550,7 @@ header{
 
 .footer .social{
     margin-bottom: 0;
+    padding: 0;
 }
 
 .join-title{
