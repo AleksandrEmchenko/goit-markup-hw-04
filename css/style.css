@@ -65,17 +65,18 @@ header{
 
 .site-nav .link,
 .auth-nav .link{
-    display: inline-block;
+    display: block;
     padding: 32px 0;
 }
 
-.list.auth-nav{
+        /*-----auth start-----*/
+.auth-nav{
     display: flex;
-    align-items: center;
     margin-left: auto;
 }
 
-.auth-nav .item{
+.auth-nav .item,
+.auth-nav .link{
     display: flex;
     align-items: center;
 }
@@ -84,19 +85,21 @@ header{
     margin-right: 50px;
 }
 
-.auth-nav .item:hover{
-    color: var(--accent-color);
+.auth-nav .link{
+    color: var(--text-color);
+    fill: var(--text-color);
 }
 
-.auth{
-    color: currentColor;
+.auth-nav .link:hover .icon-mail,
+.auth-nav .link:hover .icon-tel,
+.auth-nav .link:focus .icon-mail,
+.auth-nav .link:focus .icon-tel{
+    fill: var(--accent-color);
 }
 
-.icon{
-    display: inline-block;
+.icon-mail,
+.icon-tel{
     margin-right: 10px;
-    fill: currentColor;
-    cursor: pointer;
 }
 
 .icon-mail{
@@ -108,6 +111,8 @@ header{
     width: 10px;
     height: 16px;
 }
+
+        /*-----auth end-----*/
 
 .logo{
     margin-right: 93px;
